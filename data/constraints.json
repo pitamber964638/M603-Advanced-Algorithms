@@ -1,1 +1,122 @@
-
+{
+    "classes": [
+        {
+            "id": "CS101",
+            "students": 120,
+            "professor": "P1"
+        },
+        {
+            "id": "MATH101",
+            "students": 115,
+            "professor": "P2"
+        },
+        {
+            "id": "PHY101",
+            "students": 90,
+            "professor": "P3"
+        },
+        {
+            "id": "ENG101",
+            "students": 55,
+            "professor": "P4"
+        },
+        {
+            "id": "HIST101",
+            "students": 40,
+            "professor": "P5"
+        },
+        {
+            "id": "CS201",
+            "students": 80,
+            "professor": "P1"
+        },
+        {
+            "id": "DB202",
+            "students": 75,
+            "professor": "P6"
+        },
+        {
+            "id": "AI301",
+            "students": 65,
+            "professor": "P7"
+        },
+        {
+            "id": "SE302",
+            "students": 70,
+            "professor": "P8"
+        },
+        {
+            "id": "BUS101",
+            "students": 100,
+            "professor": "P9"
+        },
+        {
+            "id": "ECO101",
+            "students": 95,
+            "professor": "P10"
+        },
+        {
+            "id": "LAW101",
+            "students": 45,
+            "professor": "P11"
+        }
+    ],
+    "rooms": [
+        {
+            "id": "R101",
+            "capacity": 150
+        },
+        {
+            "id": "R102",
+            "capacity": 120
+        },
+        {
+            "id": "R103",
+            "capacity": 90
+        },
+        {
+            "id": "R104",
+            "capacity": 70
+        },
+        {
+            "id": "R105",
+            "capacity": 50
+        }
+    ],
+    "student_groups": {
+        "Year1_CS": [
+            "CS101",
+            "MATH101",
+            "PHY101",
+            "ENG101"
+        ],
+        "Year2_CS": [
+            "CS201",
+            "DB202",
+            "SE302"
+        ],
+        "Year3_AI": [
+            "AI301",
+            "SE302",
+            "DB202"
+        ],
+        "Year1_Business": [
+            "BUS101",
+            "ECO101",
+            "LAW101"
+        ],
+        "Elective_Group": [
+            "HIST101",
+            "ENG101",
+            "LAW101"
+        ]
+    },
+    "time_slots": [
+        "Monday 09:00",
+        "Monday 10:00",
+        "Monday 11:00",
+        "Tuesday 09:00",
+        "Tuesday 10:00",
+        "Tuesday 11:00"
+    ]
+}
